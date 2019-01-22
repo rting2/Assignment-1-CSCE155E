@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+int numInteger;
+printf("Enter an integer:");
+scanf("%d",&numInteger);
+printf(" %d" ,numInteger);
+if (numInteger > 0 and numInteger % 2 == 0);
+printf("%d is postitive and even\n", numInteger);
+else if (numInteger < 0 and numInteger % 2 == 0);
+printf("%d is negative and even\n", numInteger);
+else if (numInteger > 0 and numInteger % 2 !=0);
+printf("%d is positive and odd\n" , numInteger);
+else if(numInteger < 0 and numInteger % 2 !=0);
+printf("%d is negative and odd\n" , numInteger);
+printf("\n");
+return 0;
+
+}
